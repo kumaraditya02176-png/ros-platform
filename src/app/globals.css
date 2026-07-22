@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  :root {
+    --bg: 5 5 5; --panel: 17 17 17; --card: 24 24 24; --border: 43 43 43; --border-soft: 31 31 31;
+    --text: 255 255 255; --text-2: 184 184 184; --text-3: 128 128 128; --text-4: 82 82 82;
+    --success: 16 185 129; --warning: 245 158 11; --error: 239 68 68; --accent: 59 130 246;
+  }
+  body { @apply bg-[rgb(var(--bg))] text-[rgb(var(--text))] font-sans antialiased; }
+}
